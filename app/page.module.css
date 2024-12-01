@@ -1,0 +1,51 @@
+/* page.module.css */
+
+.container {
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .heading {
+    color: #333;
+    margin: 20px 0;
+  }
+  
+  .input {
+    display: block;
+    width: calc(100% - 22px); /* Full width minus padding and border */
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .input:focus {
+    outline: none;
+    border-color: #4caf50;
+  }
+  
+  .button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
+  .total {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
